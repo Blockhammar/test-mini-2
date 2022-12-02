@@ -49,6 +49,8 @@ body{
   display: inline-block;
   border-radius: 10px;
   text-align: left;
+  position: fixed;
+  right:0;
 }
 
 .box img{
@@ -62,6 +64,7 @@ body{
 form{
   text-align: right;
   margin: 50px 40px;
+  display: inline;
 }
 
 .tex {
@@ -86,10 +89,13 @@ font-weight: bold;
 }
 
 .header{
-  display: inline-block;
-  text-align: left;
+  align-items: center;
+  height: 200px;
 }
 
 #bild{
+  display:inline;
   float:left;
 }
+
+
