@@ -45,14 +45,10 @@ function handelSubmit(event){
   return (
     <div className="App">
      
-      <div className="Header">
-        <img id="bild" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/200px-Star_Wars_Logo.svg.png" alt="" />
-        
         <form onSubmit={handelSubmit}>
         <input className ="tex"type="text" onChange={handelChange} />
         <input className="sub"type="submit" value="Submit" />
         </form>
-      </div>
       {thePerson}
     </div>
   );
