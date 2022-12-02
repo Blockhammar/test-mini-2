@@ -44,8 +44,8 @@ function handelSubmit(event){
   return (
     <div className="App">
       <form onSubmit={handelSubmit}>
-       <input type="text" onChange={handelChange} />
-       <input type="submit" value="Submit" />
+       <input className ="tex"type="text" onChange={handelChange} />
+       <input className="sub"type="submit" value="Submit" />
       </form>
       {thePerson}
 

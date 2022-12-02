@@ -62,3 +62,23 @@ form{
   text-align: right;
   margin: 15px 40px;
 }
+
+.tex {
+  height: 25px;
+  border-radius: 20px;
+}
+
+.sub{
+margin-left: 10px;
+height: 34px;
+padding:0px 15px;
+border-radius: 20px;
+font-weight: bold;
+}
+
+.sub:hover{
+  background-color: rgb(255, 255, 120);
+}
+.sub:active{
+  background-color: rgb(170, 170, 0);
+}
