@@ -25,7 +25,7 @@ function handelSubmit(event){
   event.preventDefault();
   
   for (let index = 0; index < data.length; index++) {
-    if(data[index].name.includes(option)){
+    if(data[index].name.toLowerCase().includes(option.toLowerCase())){
     setThePerson(
       <div className="box">
         <img src={data[index].name}></img>
