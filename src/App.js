@@ -28,6 +28,7 @@ function handelSubmit(event){
     if(data[index].name.includes(option)){
     setThePerson(
       <div className="box">
+        <img src={data[index].name}></img>
         <h1>{data[index].name}</h1>
         <p>Eye color: {data[index].eye_color}</p>
         <p>Height: {data[index].height}</p>
