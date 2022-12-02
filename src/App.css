@@ -52,7 +52,9 @@ body{
 }
 
 .box img{
- 
+  width: 250px;
+  height: 200px;
+  width: 300px;
   border-radius: 10px;
   margin-top:50px;
 }
@@ -65,10 +67,11 @@ form{
 .tex {
   height: 25px;
   border-radius: 20px;
+  padding-left: 10px;
 }
 
 .sub{
-margin-left: 10px;
+margin-left: 20px;
 height: 34px;
 padding:0px 15px;
 border-radius: 20px;
@@ -80,4 +83,9 @@ font-weight: bold;
 }
 .sub:active{
   background-color: rgb(170, 170, 0);
+}
+
+.header img{
+  width: 100px;
+  height: 200px;
 }
