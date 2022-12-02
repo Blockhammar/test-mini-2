@@ -61,7 +61,7 @@ body{
 
 form{
   text-align: right;
-  margin: 15px 40px;
+  margin: 50px 40px;
 }
 
 .tex {
@@ -85,7 +85,11 @@ font-weight: bold;
   background-color: rgb(170, 170, 0);
 }
 
-.header img{
-  width: 100px;
-  height: 200px;
+.header{
+  display: inline-block;
+  text-align: left;
+}
+
+#bild{
+  float:left;
 }
