@@ -8,7 +8,7 @@ function App() {
 
 
   useEffect(() => {
-    fetch("https://www.swapi.tech/api/people"
+    fetch("https://swapi.dev/api/people/"
     )
     .then(response => response.json())
     .then(data => setData(data.results))
@@ -26,12 +26,13 @@ function handelSubmit(event){
   
   for (let index = 0; index < data.length; index++) {
     if(data[index].name.includes(option))
-      setThePerson(
+    setThePerson(
       <div className="box">
         <h1>{data[index].name}</h1>
-        <p>height: {data[index].height}</p>
-        <p>planet: {data[index].homeworld}</p>
+        <h1>{data[index].eye_color}</h1>
+        <p>{data[index].homeworld}</p>
         </div>);
+        
   }
 }
 
