@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 function App() {
   const [data, setData] = useState([]);
   const [option, setOption] = useState("people");
-  const [thePerson, setThePerson] = useState("people");
+  const [thePerson, setThePerson] = useState("");
 
 
   useEffect(() => {
