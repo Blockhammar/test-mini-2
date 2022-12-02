@@ -46,3 +46,10 @@
   display: inline-block;
   border-radius: 10px;
 }
+
+.box img{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-top:50px;
+}
