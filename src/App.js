@@ -29,8 +29,12 @@ function handelSubmit(event){
     setThePerson(
       <div className="box">
         <h1>{data[index].name}</h1>
-        <h1>{data[index].eye_color}</h1>
-        <p>{data[index].homeworld}</p>
+        <p>Eye color: {data[index].eye_color}</p>
+        <p>Height: {data[index].height}</p>
+        <p>Gender: {data[index].gender}</p>
+        <p>Year of birth: {data[index].birth_year}</p>
+
+
         </div>);
     }
   }
